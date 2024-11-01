@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Chau Philomene One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chau Philomene One'),local('ChauPhilomeneOne-Regular'),
+	url(../font/KKc5egCL-a2fFVoOA2x6tLCP4LGfprDLBfU97ANpU-o.woff) format('woff');
+}
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000;}
+
+/* Container */
+/* #simplemodal-container { color:#bbb; background-color:#333; border:4px solid #444; padding:12px; max-width:850px;max-height:700px;}*/
+#simplemodal-container { color:#bbb; background-color:#fff;  padding:12px 12px 24px 12px; max-width:850px;max-height:650px; box-shadow: 0px 4px 33px #000;
+-moz-box-shadow: 0px 4px 33px #000; -webkit-box-shadow: 0px 4px 33px #000; }
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../img/basic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+.post_listing{ margin:0px; padding:0;}
+.post_listing li img{ border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; width:172px; height:132px; border:solid 1px #fff;}
+
+.post_listing li{ 
+	
+	cursor:pointer; float:left; 
+	margin:0 2px 14px 0 !important; 
+	padding:3px; 
+	border-radius:5px; 
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	overflow:hidden;
+	position:relative; 
+	border:solid 1px #BF657D;
+}
+
+.clast{ margin-right:0px;}
+
+.youimage img{ max-width:100%;}
+@media screen and (max-width : 479px) {
+embed, iframe, object, video {height:300px;}
+#simplemodal-container{height:300px !important; width:70% !important; left:10%;}
+}
+
+.popuphori_line{
+	background-color: #CCCCCC;
+    border: 0 none;
+    height: 2px;
+    margin: 5px 0px 0.714rem;
+}
+
+.post_title_class {		
+		text-align: center;
+		background: url("../images/title_product_bg.png") repeat scroll 0 0 #BF657D;
+		color: #FFFFFF;
+		position: absolute;
+		font-family: 'Chau Philomene One', sans-serif;
+		display: block;
+		bottom: 11px;
+		width: 84%;		
+		left: 17px;
+		border-radius:18px 18px 0px 0px;
+		/*line-height: 30px;*/
+		line-height: 22px;
+		font-size:14px;
+		z-index: 999;
+		text-shadow: 0 1px 0 #000000;		
+		text-transform: uppercase;
+}
+.post_listing li:hover{opacity:0.5; border:solid 1px #d1d1d1;}
+.post_listing li:hover .zoomImg{ display:block;}
+.post_listing li .zoomImg{display:none; background: url("../images/zoom.png") no-repeat; width:128px; height:128px; position: absolute; top:18%; left:28%;
+				background-size: 61% 60%; z-index:9999; }
+.popup_title{color:#254559; font-family: 'Chau Philomene One', sans-serif;font-size:18px;float:left;}				
+
+#wpg_cool_container { float:left;margin:10px 0px 0px 0px;}
+.wpg_cool_all_cat{ float:right;margin:0px 10px 0 0px; }
